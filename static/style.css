@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.col-md-10 {
+    max-width: 1500px; /* Increased maximum width */
+    background-color: #fff;
+    border-radius: 20px; /* Increased border radius */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Increased box shadow */
+    padding: 60px; /* Increased padding */
+}
+h1 {
+    text-align: center;
+    margin-top: 40px; /* Increased margin */
+    color: #3f51b5;
+    font-size: 42px; /* Increased font size */
+}
+.botText {
+    background-color: #e4eaf2;
+    border-radius: 25px; /* Increased border radius */
+    padding: 30px; /* Increased padding */
+    margin: 30px 0; /* Increased margin */
+    max-width: 90%; /* Increased maximum width */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Increased box shadow */
+    font-size: 24px; /* Increased font size */
+}
+.userText {
+    background-color: #f1f1f1;
+    border-radius: 25px; /* Increased border radius */
+    padding: 30px; /* Increased padding */
+    margin: 30px 0; /* Increased margin */
+    max-width: 90%; /* Increased maximum width */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Increased box shadow */
+    font-size: 24px; /* Increased font size */
+}
+#userInput {
+    margin-top: 60px; /* Increased margin */
+}
+#text {
+    flex: 1;
+    padding: 20px; /* Increased padding */
+    border: none;
+    border-radius: 15px 0 0 15px; /* Increased border radius */
+    font-size: 24px; /* Increased font size */
+}
+#send {
+    border: none;
+    background-color: #3f51b5;
+    color: #fff;
+    border-radius: 0 15px 15px 0; /* Increased border radius */
+    padding: 25px 50px; /* Increased padding */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 24px; /* Increased font size */
+}
+#send:hover {
+    background-color: #2c3a91;
+}
